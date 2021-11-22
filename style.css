@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+h1 {
+  text-align: center;
+}
+.valid {
+  border: #2da03c solid 2px;
+}
+
+.notValid {
+  border: #bb343b solid 2px;
+}
+input:focus {
+  outline: none;
+}
